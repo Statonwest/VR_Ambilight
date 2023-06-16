@@ -1,0 +1,9 @@
+LEDs:
+WS2812b Individually Addressable led Strip 144Pixels/m
+https://www.amazon.com/dp/B09P8MH56K?psc=1&ref=ppx_yo2ov_dt_b_product_details
+
+Arduino firmware:
+https://github.com/hyperion-project/hyperion.ng/blob/master/assets/firmware/arduino/adalight/adalight.ino
+
+Hyperion install:
+https://docs.hyperion-project.org/en/user/Installation.html#fedora
