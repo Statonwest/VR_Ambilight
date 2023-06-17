@@ -5,26 +5,20 @@ Features
 
     Dynamic ambient lighting synchronized with VR content.
     Adjustable color and brightness settings.
-    Support for popular VR platforms.
+    Support for Valve Index.
 
 #Materials
 
 Before you begin, make sure you have the following materials:
 
-    Arduino Uno or compatible microcontroller.
+    Arduino Nano.
     RGB LED strip (addressable, preferably WS2812B).
-    Power supply for the LED strip.
-    USB cable for connecting Arduino to the computer.
-    Jumper wires.
-    Resistor (330 Ohms).
-    Breadboard or soldering equipment (depending on your preference).
+    Soldering equipment.
     Computer with Arduino IDE installed.
 
 #Wiring Diagram
 
 Follow this wiring diagram to connect the components correctly:
-
-mathematica
 
 [Insert Wiring Diagram Here]
 
