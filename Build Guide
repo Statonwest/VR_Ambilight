@@ -1,5 +1,4 @@
-VR Ambilight Build Guide
-##Introduction
+#Introduction
 
 The VR Ambilight is a project that enhances the immersive experience of virtual reality (VR) by creating dynamic ambient lighting that synchronizes with the on-screen content. This guide will walk you through the process of building your own VR Ambilight system.
 Features
@@ -8,7 +7,7 @@ Features
     Adjustable color and brightness settings.
     Support for popular VR platforms.
 
-Materials
+#Materials
 
 Before you begin, make sure you have the following materials:
 
@@ -21,7 +20,7 @@ Before you begin, make sure you have the following materials:
     Breadboard or soldering equipment (depending on your preference).
     Computer with Arduino IDE installed.
 
-Wiring Diagram
+#Wiring Diagram
 
 Follow this wiring diagram to connect the components correctly:
 
@@ -29,7 +28,7 @@ mathematica
 
 [Insert Wiring Diagram Here]
 
-Software Setup
+#Software Setup
 
 To set up the software, follow these steps:
 
@@ -49,7 +48,7 @@ To set up the software, follow these steps:
 
     Once uploaded, the Arduino will be ready to control the LED strip.
 
-Building the VR Ambilight
+#Building the VR Ambilight
 
 Follow these steps to assemble the VR Ambilight system:
 
