@@ -21,7 +21,7 @@ Before you begin, make sure you have the following materials:
 
 Follow this wiring diagram to connect the components correctly:
 
-[Insert Wiring Diagram Here]
+[Wiring.jpg](https://github.com/Statonwest/VR_Ambilight/blob/4eb2b8151044abd69c027892ab7f479d03757838/Wiring.jpg)
 
 #Software Setup
 
