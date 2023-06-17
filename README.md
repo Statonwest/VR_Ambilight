@@ -16,6 +16,7 @@ Before you begin, make sure you have the following materials:
     WS2812b Individually Addressable led Strip 144Pixels/m.
     Soldering equipment.
     Computer with Arduino IDE installed.
+    Defusion sheet (recomended)
 
 ## Wiring Diagram
 Follow this wiring diagram to connect the components correctly:
@@ -38,8 +39,6 @@ Clone or download the project files from the GitHub repository:
 The original repository can be found here.
 [adalight.ino](https://github.com/hyperion-project/hyperion.ng/blob/master/assets/firmware/arduino/adalight/adalight.ino)
 
-Once uploaded, the Arduino will be ready to control the LED strip.
-
 ## Building the VR Ambilight
 
 Follow these steps to assemble the VR Ambilight system:
@@ -58,9 +57,16 @@ Plug in the USB, and the LED strip should light up.
 
 Position the LED strip around the perimeter of your face gasket, ensuring an even distribution of light.
 
+Cut out the defusion sheet accroding to the template ##[ADD Diffusion Template HERE]##. The deffusion sheet I used was from an old display.
+But parchment paper can work in a pinch.
+
+## Hyperion
+
 Setup Hyperion [Hyperion](https://docs.hyperion-project.org/en/user/Installation.html#fedora)
+##add more here##
 
 Test the VR Ambilight by running a VR application or video content.
 ##Add more here##
 
-Adjust the color and brightness settings according to your preference in Hyperion. 
+Adjust the color and brightness settings according to your preference in Hyperion.
+##add more here##
