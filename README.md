@@ -22,7 +22,7 @@ WS2812b Individually Addressable led Strip 144Pixels/m
 
 Soldering equipment
 
-Defusion sheet (recomended)
+Defusion sheet
 
 
 ## Wiring Diagram
@@ -88,3 +88,9 @@ Configure the output settings to match your Arduino connection. Select the corre
 
 Adjust any additional settings in Prismatik according to your preferences, such as color correction, brightness, and capture area.
 [PIC of Prismatik settings]
+
+## To do
+
+- [ ] Better mounting of diffusion sheet
+
+- [ ] Reduce the glare on the lenses
