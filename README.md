@@ -1,4 +1,4 @@
-# VR Ambilight (WORK IN PROGRESS)
+# VR Ambilight
 
 ## Introduction
 
@@ -28,7 +28,7 @@ Defusion sheet (recomended)
 ## Wiring Diagram
 
 Ensure that the LED strip you are using operates at a voltage of **5V**.
-![Wiring.jpg](https://github.com/Statonwest/VR_Ambilight/blob/01b49622970872a12339bb632445c691a10369d1/Wiring%20Digram.jpg)
+![Wiring Digram](https://github.com/Statonwest/VR_Ambilight/blob/e8cd4434b4d7c3b75dffecd37ce002222edb5176/Photos/Wiring%20Digram.jpg)
 Typically, for larger LED strip setups, it would require a separate power supply unit (PSU). However, in this case, the number of LEDs is small enough to be powered directly from the Arduino board itself.
 
 
@@ -51,19 +51,21 @@ Cut two LED strips, each with 9 LEDs.
 
 Solder the two individual strips together using wire lengths that are long enough to route around to each side of the face gasket.
 
+![Leds](https://github.com/Statonwest/VR_Ambilight/blob/e8cd4434b4d7c3b75dffecd37ce002222edb5176/Photos/LEDs.jpg)
+
 Connect the data line, GND, and the 5V of the LED strip to the Arduino. Connect the DIN (data input) pin of the LED strip to digital pin 6 on the Arduino.
 
 Double-check all the connections to ensure they are secure.
 
 Position the LED strip on the sides of your face gasket, ensuring an even distribution of light. Refer to the image below for reference:
 
-[PIC of face gasket wired]
+###![Face Gasket wireing]###
 
 Choose a wire routing method that works best for you. I opted to route the wires from underneath and over the top of the gasket, but there are other possible arrangements. Adjust your Prismatik settings accordingly to match your wire placement. 
 
 Mount the Arduino Nano securely at the front of the index. Connect the Arduino Nano to the USB port for power and data transmission.
 
-[PIC of arduino placement]
+###[PIC of arduino placement]###
 
 
 ## Diffusion Sheet
@@ -72,7 +74,7 @@ Cut out the diffusion sheet according to the provided template Diffusion Templat
 
 Use two polarizing layers and place the top diffusion sheet on top of them for optimal results.
 
-[PIC of diffusion sheets]
+![Diffusion Sheets](https://github.com/Statonwest/VR_Ambilight/blob/e8cd4434b4d7c3b75dffecd37ce002222edb5176/Photos/Diffusion%20Sheets.jpg)
 
 
 ## Prismatik
