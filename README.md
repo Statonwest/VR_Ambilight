@@ -59,7 +59,7 @@ Double-check all the connections to ensure they are secure.
 
 Position the LED strip on the sides of your face gasket, ensuring an even distribution of light. Refer to the image below for reference:
 
-###![Face Gasket wireing]###
+![Face Gasket wireing](https://github.com/Statonwest/VR_Ambilight/blob/4c1be2d51b12fa2441cf016311f411c63fe154cb/Photos/Face%20Gasket%20with%20LEDs.jpg)
 
 Choose a wire routing method that works best for you. I opted to route the wires from underneath and over the top of the gasket, but there are other possible arrangements. Adjust your Prismatik settings accordingly to match your wire placement. 
 
