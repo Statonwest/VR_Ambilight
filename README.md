@@ -22,7 +22,7 @@ Before you begin, make sure you have the following materials:
 Follow this wiring diagram to connect the components correctly:
 
 Ensure that the LED strip you are using operates at a voltage of **5V**.
-![Wiring.jpg](https://github.com/Statonwest/VR_Ambilight/blob/4eb2b8151044abd69c027892ab7f479d03757838/Wiring.jpg)
+![Wiring.jpg](https://github.com/Statonwest/VR_Ambilight/blob/01b49622970872a12339bb632445c691a10369d1/Wiring%20Digram.jpg)
 Typically, for larger LED strip setups, you would require a separate power supply unit (PSU). However, in this case, the number of LEDs is small enough to be powered directly from the Arduino board itself.
 
 ## Arduino Setup
