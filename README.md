@@ -60,13 +60,13 @@ Position the LED strip around the perimeter of your face gasket, ensuring an eve
 Cut out the defusion sheet accroding to the template ##[ADD Diffusion Template HERE]##. The deffusion sheet I used was from an old display.
 But parchment paper can work in a pinch.
 
-## Hyperion
+## Prismatik
 
-Setup Hyperion [Hyperion](https://docs.hyperion-project.org/en/user/Installation.html#fedora)
+Setup Hyperion [Prismatik](https://github.com/psieg/Lightpack/releases)
 ##add more here##
 
 Test the VR Ambilight by running a VR application or video content.
 ##Add more here##
 
-Adjust the color and brightness settings according to your preference in Hyperion.
+Adjust the color and brightness settings according to your preference in Prismatik.
 ##add more here##
