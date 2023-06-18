@@ -54,7 +54,7 @@
 #define ANALOG_BRIGHTNESS_GREEN 255              // maximum brightness for analog 0-255
 #define ANALOG_BRIGHTNESS_BLUE  255              // maximum brightness for analog 0-255
 
-#define BRIGHTNESS 15                       // maximum brightness 0-255
+#define BRIGHTNESS 150                       // maximum brightness 0-255
 #define DITHER_MODE BINARY_DITHER           // BINARY_DITHER or DISABLE_DITHER
 #define COLOR_TEMPERATURE CRGB(255,255,255) // RGB value describing the color temperature
 #define COLOR_CORRECTION  TypicalLEDStrip   // predefined fastled color correction
