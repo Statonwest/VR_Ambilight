@@ -3,9 +3,7 @@
 
 ## To do
 
-- [ ] Better mounting of diffusion sheet
-
-- [ ] Reduce the glare on the lenses by adjusting diffusion sheet
+- [ ] More even diffusion
 
 - [ ] Set Prismatik to only capture Steam VR window
 
@@ -16,7 +14,7 @@
 
 The VR Ambilight is a project that enhances the immersive experience of virtual reality (VR) by creating dynamic ambient lighting that synchronizes with the on-screen content. This guide will walk you through the process of building your own VR Ambilight system.
 
-###[GIF of Results]###
+![V1](https://github.com/Statonwest/VR_Ambilight/blob/902ad8909392518a5abd3fa233c36712d24bf2b6/Photos/V1.gif)
 
 ## Features
 
@@ -83,11 +81,16 @@ Mount the Arduino Nano securely at the front of the index. Connect the Arduino N
 
 ## Diffusion Sheet
 
-Cut out the diffusion sheet according to the provided template Diffusion Template. You can use an old display's diffusion sheet or parchment paper as a substitute.
+Cut out the diffusion sheet using the provided [Diffusion Template](https://github.com/Statonwest/VR_Ambilight/blob/3fd8a4334da56437a4c84d81b834a9e21e1f1194/Diffusion%20sheet%20template.png). I used an old display's diffusion and polarizing sheets.
 
-Use two polarizing layers and place the top diffusion sheet on top of them for optimal results.
+Obtain two polarizing layers and place them parallel to each other. On top of these layers, position the diffusion sheet for optimal results. The order of arrangement should be as follows: "Vertical polarizing filter," "Horizontal polarizing filter," and "Diffusion Sheet."
 
-![Diffusion Sheets](https://github.com/Statonwest/VR_Ambilight/blob/e8cd4434b4d7c3b75dffecd37ce002222edb5176/Photos/Diffusion%20Sheets.jpg)
+Cut the tab off the middle sheet and hold all the layers together by using a small amount of tape along the edges.
+
+Fold the tab and secure it with a dab of hot glue. Please note that the diffusion sheet may not easily stick to the glue, so scuff it up a bit before applying the adhesive.
+![Diffusion Sheet Ex](https://github.com/Statonwest/VR_Ambilight/blob/fae2cbfcd293879b9292f5b8e32a33429b3695bb/Photos/Diffusion%20Sheet%20applied.jpg)
+
+The bent tab provides a bit of "spring" action, allowing the filter to move along with the lenses to accommodate different [IPDs](https://en.wikipedia.org/wiki/Pupillary_distance)
 
 
 ## Prismatik
@@ -101,6 +104,7 @@ Launch Prismatik and go through the initial setup process. Follow the on-screen 
 Configure the output settings to match your Arduino connection. Select the correct COM port corresponding to the Arduino Nano.
 
 Adjust any additional settings in Prismatik according to your preferences, such as brightness (e.g. 10%), and capture area (e.g. Screen 1).
+
 
 ## Steam VR
 
