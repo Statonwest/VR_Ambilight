@@ -16,6 +16,7 @@
 
 The VR Ambilight is a project that enhances the immersive experience of virtual reality (VR) by creating dynamic ambient lighting that synchronizes with the on-screen content. This guide will walk you through the process of building your own VR Ambilight system.
 
+###[GIF of Results]###
 
 ## Features
 
