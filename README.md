@@ -1,5 +1,17 @@
 # VR Ambilight
 
+
+## To do
+
+- [ ] Better mounting of diffusion sheet
+
+- [ ] Reduce the glare on the lenses by adjusting diffusion sheet
+
+- [ ] Set Prismatik to only capture Steam VR window
+
+- [ ] Set autolaunch options of Prismatik and Steam VR
+
+
 ## Introduction
 
 The VR Ambilight is a project that enhances the immersive experience of virtual reality (VR) by creating dynamic ambient lighting that synchronizes with the on-screen content. This guide will walk you through the process of building your own VR Ambilight system.
@@ -83,14 +95,12 @@ Use two polarizing layers and place the top diffusion sheet on top of them for o
 is the software we will utilize to capture the screen content and send the data to the Arduino.
 
 Launch Prismatik and go through the initial setup process. Follow the on-screen instructions to configure the display settings.
+![Prismatik settings](https://github.com/Statonwest/VR_Ambilight/blob/d60da588a4e45d62c5e8758da543930119e4fec4/Photos/Prismatik.jpg)
 
 Configure the output settings to match your Arduino connection. Select the correct COM port corresponding to the Arduino Nano.
 
-Adjust any additional settings in Prismatik according to your preferences, such as color correction, brightness, and capture area.
-[PIC of Prismatik settings]
+Adjust any additional settings in Prismatik according to your preferences, such as brightness (e.g. 10%), and capture area (e.g. Screen 1).
 
-## To do
+## Steam VR
 
-- [ ] Better mounting of diffusion sheet
-
-- [ ] Reduce the glare on the lenses
+When you launch Steam VR. Select "Display VR View" and display both eyes.
