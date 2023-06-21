@@ -18,6 +18,8 @@ The VR Ambilight is a project that enhances the immersive experience of virtual 
 
 ![V1](https://github.com/Statonwest/VR_Ambilight/blob/902ad8909392518a5abd3fa233c36712d24bf2b6/Photos/V1.gif)
 
+It performs exceptionally well for games that feature vibrant colors, like Beat Saber.
+
 ## Features
 
 Dynamic ambient lighting synchronized with VR content.
