@@ -7,9 +7,11 @@
 
 - [ ] Set Prismatik to only capture Steam VR window
 
-- [ ] Set autolaunch options of Prismatik and Steam VR
+- [ ] Better Prismatik Settings
 
 - [ ] Better Mount for arduino
+
+- [ ] Auto close Prismatik with Steam VR
 
 
 ## Introduction
@@ -110,6 +112,12 @@ Configure the output settings to match your Arduino connection. Select the corre
 Adjust any additional settings in Prismatik according to your preferences, such as brightness (e.g. 10%), and capture area (e.g. Screen 1).
 
 
-## Steam VR
+## Steam VR / Auto Launch
 
-When you launch Steam VR. Select "Display VR View" and display both eyes.
+Open Steam VR and choose the option "Display VR View" to enable viewing through both eyes.
+
+Next, download the file [Auto_Launch.bat](https://github.com/Statonwest/VR_Ambilight/blob/d64d81af95ce442ccbf9eab3ec971fdd34c03d08/Auto_Launch.bat) and ensure it is placed in the identical directory as Steam VR. Usually, this directory can be found at "C:\Program Files (x86)\Steam\steamapps\common\SteamVR".
+
+Make sure that the locations of both Prismatik and Steam VR installations are consistent.
+
+Finally, include the following [Launch Option](https://help.steampowered.com/en/faqs/view/7d01-d2dd-d75e-2955) in Steam VR: "Auto_Launch.bat %COMMAND%".
