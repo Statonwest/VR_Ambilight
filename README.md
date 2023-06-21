@@ -3,11 +3,13 @@
 
 ## To do
 
-- [ ] More even diffusion
+- [ ] Better diffusion
 
 - [ ] Set Prismatik to only capture Steam VR window
 
 - [ ] Set autolaunch options of Prismatik and Steam VR
+
+- [ ] Better Mount for arduino
 
 
 ## Introduction
@@ -76,7 +78,7 @@ Choose a wire routing method that works best for you. I opted to route the wires
 
 Mount the Arduino Nano securely at the front of the index. Connect the Arduino Nano to the USB port for power and data transmission.
 
-###[PIC of arduino placement]###
+![Arduino mounted](https://github.com/Statonwest/VR_Ambilight/blob/a482895b87d1890fa9621ab019c8c148d78b8f43/Photos/Arduino%20Mounted.jpg)
 
 
 ## Diffusion Sheet
