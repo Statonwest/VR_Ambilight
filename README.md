@@ -13,6 +13,8 @@
 
 - [ ] Auto close Prismatik with Steam VR
 
+- [ ] Quest 2 Support
+
 
 ## Introduction
 
@@ -105,7 +107,7 @@ The bent tab provides a bit of "spring" action, allowing the filter to move alon
 is the software we will utilize to capture the screen content and send the data to the Arduino.
 
 Launch Prismatik and go through the initial setup process. Follow the on-screen instructions to configure the display settings.
-![Prismatik settings](https://github.com/Statonwest/VR_Ambilight/blob/d60da588a4e45d62c5e8758da543930119e4fec4/Photos/Prismatik.jpg)
+![Prismatik settings](https://github.com/Statonwest/VR_Ambilight/blob/e728cd80f0c3ad1413558759991a7cd0a77fd714/Photos/Prismatik%20Settings.jpg)
 
 Configure the output settings to match your Arduino connection. Select the correct COM port corresponding to the Arduino Nano.
 
