@@ -1,21 +1,6 @@
 # VR Ambilight
 
 
-## To do
-
-- [ ] Better diffusion
-
-- [ ] Set Prismatik to only capture Steam VR window
-
-- [ ] Better Prismatik Settings
-
-- [ ] Better Mount for arduino
-
-- [ ] Auto close Prismatik with Steam VR
-
-- [ ] Quest 2 Support
-
-
 ## Introduction
 
 The VR Ambilight is a project that enhances the immersive experience of virtual reality (VR) by creating dynamic ambient lighting that synchronizes with the on-screen content. This guide will walk you through the process of building your own VR Ambilight system.
@@ -123,3 +108,18 @@ Next, download the file [Auto_Launch.bat](https://github.com/Statonwest/VR_Ambil
 Make sure that the locations of both Prismatik and Steam VR installations are consistent.
 
 Finally, include the following [Launch Option](https://help.steampowered.com/en/faqs/view/7d01-d2dd-d75e-2955) in Steam VR: "Auto_Launch.bat %COMMAND%".
+
+
+## To do
+
+- [ ] Better diffusion
+
+- [ ] Set Prismatik to only capture Steam VR window
+
+- [ ] Better Prismatik Settings
+
+- [ ] Better Mount for arduino
+
+- [ ] Auto close Prismatik with Steam VR
+
+- [ ] Quest 2 Support
