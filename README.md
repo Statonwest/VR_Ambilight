@@ -147,14 +147,12 @@ Notes for the 3D print in example:
 
 ## To do
 
-- [ ] Better diffusion
+- [x] Better diffusion
+
+- [ ] Better Mount for arduino
 
 - [ ] Set Prismatik to only capture Steam VR window
 
 - [ ] Better Prismatik Settings
 
-- [ ] Better Mount for arduino
-
 - [ ] Auto close Prismatik with Steam VR
-
-- [ ] Quest 2 Support
