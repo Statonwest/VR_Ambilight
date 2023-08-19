@@ -25,6 +25,15 @@ Soldering equipment
 
 Defusion sheet
 
+---
+Alternative 3D printed diffuser:
+
+Clear filament
+
+Paper
+
+Glue
+
 
 ## Wiring Diagram
 
@@ -105,6 +114,35 @@ Next, download the file [Auto_Launch.bat](https://github.com/Statonwest/VR_Ambil
 Make sure that the locations of both Prismatik and Steam VR installations are consistent.
 
 Finally, include the following [Launch Option](https://help.steampowered.com/en/faqs/view/7d01-d2dd-d75e-2955) in Steam VR: "Auto_Launch.bat %COMMAND%".
+
+
+## Alternative 3D printed diffuser
+
+The 3D printed diffuser version was designed to provide better color-depth and ease of maintenance.
+
+Both an STL and a Step file have been provided for printing and modification. Mirror the diffuser for the left side.
+
+![Parts](https://github.com/Nemernemer/VR_Ambilight/blob/main/Photos/3D%20printed%20diffuser/Parts.jpg)
+
+The diffusers are held in place by the face gasket and silicone membrane around the lenses.
+![Parts assembled](https://github.com/Nemernemer/VR_Ambilight/blob/main/Photos/3D%20printed%20diffuser/Parts%20assembled.jpg)
+
+Instead of mounting the LEDs to the face gasket, they are instead glued to the headset, pushed up against the edge on each side.
+![Alternative LED mounting](https://github.com/Nemernemer/VR_Ambilight/blob/main/Photos/3D%20printed%20diffuser/LED%20mounting.jpg)
+
+Glue more layers of paper onto the outside of the 3D print for more diffusion and light reduction. This example uses 2 layers of paper, allowing Prismatik to run at 50% brightness or 7 bits worth of color depth, resulting in less flashing.
+![Diffuser example](https://github.com/Nemernemer/VR_Ambilight/blob/main/Photos/3D%20printed%20diffuser/Diffuser%20example.jpg)
+
+Notes for the 3D print in example:
+
+- Filament: Clear ABS
+
+- Extrusion width: 0.86 (0.6 nozzle)
+
+- Layer height: 0.16  (smaller layers recommended to avoid layers concentrating light into lines)
+
+- Temperature: Below manufacturer recommendation for a matte finish
+
 
 
 ## To do
