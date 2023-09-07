@@ -151,8 +151,4 @@ Notes for the 3D print in example:
 
 - [ ] Better Mount for arduino
 
-- [ ] Set Prismatik to only capture Steam VR window
-
-- [ ] Better Prismatik Settings
-
-- [ ] Auto close Prismatik with Steam VR
+- [ ] Auto close screen capture with Steam VR
