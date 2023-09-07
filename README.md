@@ -92,10 +92,10 @@ Fold the tab and secure it with a dab of hot glue. Please note that the diffusio
 The bent tab provides a bit of "spring" action, allowing the filter to move along with the lenses to accommodate different [IPDs](https://en.wikipedia.org/wiki/Pupillary_distance)
 
 
-## Prismatik
+## Screen Capture
+[Prismatik](https://github.com/psieg/Lightpack/releases) serves as the primary software solution for our guild's needs, although there are several alternative options available, such as [Firefly Luciferin](https://github.com/sblantipodi/firefly_luciferin). Firefly is recognized for its lower computational resource requirements.
 
-[Prismatik](https://github.com/psieg/Lightpack/releases) 
-is the software we will utilize to capture the screen content and send the data to the Arduino.
+The software is used for screen content capture and data transmission to the Arduino.
 
 Launch Prismatik and go through the initial setup process. Follow the on-screen instructions to configure the display settings.
 ![Prismatik settings](https://github.com/Statonwest/VR_Ambilight/blob/e728cd80f0c3ad1413558759991a7cd0a77fd714/Photos/Prismatik%20Settings.jpg)
