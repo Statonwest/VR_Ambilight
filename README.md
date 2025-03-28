@@ -78,6 +78,14 @@ Mount the Arduino Nano securely at the front of the index. Connect the Arduino N
 ![Arduino mounted](https://github.com/Statonwest/VR_Ambilight/blob/a482895b87d1890fa9621ab019c8c148d78b8f43/Photos/Arduino%20Mounted.jpg)
 
 
+### Finer density LED Strips by [OfficerSkidmark](https://github.com/OfficerSkidmark)
+
+![Dense Leds Strip](https://private-user-images.githubusercontent.com/110629277/324322049-5840d202-70ce-44e8-97b2-7244db645ca2.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDMxMjkwMzksIm5iZiI6MTc0MzEyODczOSwicGF0aCI6Ii8xMTA2MjkyNzcvMzI0MzIyMDQ5LTU4NDBkMjAyLTcwY2UtNDRlOC05N2IyLTcyNDRkYjY0NWNhMi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMyOFQwMjI1MzlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xOTkzM2VjNTY1ZmI3N2M0MTJiMWFiNTMyMWVlOTZiMjI5ODc0ZDZiYWNmMzc0YjIzODRjYjE4ZDZiMzY5MjhjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.BkFI0sxHjXNRvRNbiCjlrL9kP9Zi84itNVZxc4steGE)
+
+Officer Skidmark used 1,035 LEDs rather than the WS2812b. This provides a much higher resolution while reducing power draw and decreasing the brightness to a more appropriate level.
+
+![Dens Led Strip](https://private-user-images.githubusercontent.com/110629277/323023932-c4211543-2685-4ae9-8bd2-9ce1fb209e6c.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDMxMjkzMTIsIm5iZiI6MTc0MzEyOTAxMiwicGF0aCI6Ii8xMTA2MjkyNzcvMzIzMDIzOTMyLWM0MjExNTQzLTI2ODUtNGFlOS04YmQyLTljZTFmYjIwOWU2Yy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMyOFQwMjMwMTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNjY0NGIxZDBkNjgwNTdhMjk5ZTkxZWNiYTY3Mzg4ZTRlNWRmZGNmZDAwM2IwZWMzMzM1ZGRkZjRjZTI3YWJmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ayrqzSDeLkF-sk-InqSGFH6IGerjj5OXWEopvYScf-s)
+
 ## Diffusion Sheet
 
 Cut out the diffusion sheet using the provided [Diffusion Template](https://github.com/Statonwest/VR_Ambilight/blob/3fd8a4334da56437a4c84d81b834a9e21e1f1194/Diffusion%20sheet%20template.png). I used an old display's diffusion and polarizing sheets.
@@ -92,31 +100,7 @@ Fold the tab and secure it with a dab of hot glue. Please note that the diffusio
 The bent tab provides a bit of "spring" action, allowing the filter to move along with the lenses to accommodate different [IPDs](https://en.wikipedia.org/wiki/Pupillary_distance)
 
 
-## Screen Capture
-[Prismatik](https://github.com/psieg/Lightpack/releases) serves as the primary software solution for our guild's needs, although there are several alternative options available, such as [Firefly Luciferin](https://github.com/sblantipodi/firefly_luciferin). Firefly is recognized for its lower computational resource requirements.
-
-The software is used for screen content capture and data transmission to the Arduino.
-
-Launch Prismatik and go through the initial setup process. Follow the on-screen instructions to configure the display settings.
-![Prismatik settings](https://github.com/Statonwest/VR_Ambilight/blob/e728cd80f0c3ad1413558759991a7cd0a77fd714/Photos/Prismatik%20Settings.jpg)
-
-Configure the output settings to match your Arduino connection. Select the correct COM port corresponding to the Arduino Nano.
-
-Adjust any additional settings in Prismatik according to your preferences, such as brightness (e.g. 10%), and capture area (e.g. Screen 1).
-
-
-## Steam VR / Auto Launch
-
-Open Steam VR and choose the option "Display VR View" to enable viewing through both eyes.
-
-Next, download the file [Auto_Launch.bat](https://github.com/Statonwest/VR_Ambilight/blob/d64d81af95ce442ccbf9eab3ec971fdd34c03d08/Auto_Launch.bat) and ensure it is placed in the identical directory as Steam VR. Usually, this directory can be found at "C:\Program Files (x86)\Steam\steamapps\common\SteamVR".
-
-Make sure that the locations of both Prismatik and Steam VR installations are consistent.
-
-Finally, include the following [Launch Option](https://help.steampowered.com/en/faqs/view/7d01-d2dd-d75e-2955) in Steam VR: "Auto_Launch.bat %COMMAND%".
-
-
-## Alternative 3D printed diffuser
+## Alternative 3D Printed Diffuser by [Nemernemer](https://github.com/Nemernemer)
 
 The 3D printed diffuser version was designed to provide better color-depth and ease of maintenance.
 
@@ -134,15 +118,27 @@ Glue more layers of paper onto the outside of the 3D print for more diffusion an
 ![Diffuser example](https://github.com/Nemernemer/VR_Ambilight/blob/main/Photos/3D%20printed%20diffuser/Diffuser%20example.jpg)
 
 Notes for the 3D print in example:
-
 - Filament: Clear ABS
-
 - Extrusion width: 0.86 (0.6 nozzle)
-
 - Layer height: 0.16  (smaller layers recommended to avoid layers concentrating light into lines)
-
 - Temperature: Below manufacturer recommendation for a matte finish
 
+
+## Sampler / Screen Capture
+[OpenVR Ambient Light](https://github.com/Rectus/openvr_ambient_light) is the control software for ambient LED lighting in virtual reality headsets. Unlike most other control software that sample the desktop, OpenVR Ambient Light directly samples the VR headset view. This provides accurate light estimation based on the content actually shown by the headset, and prevents other windows on the desktop from interfering.
+
+## <strike>Screen Capture (Legacy)
+[Prismatik](https://github.com/psieg/Lightpack/releases) serves as the primary software solution for our guild's needs, although there are several alternative options available, such as [Firefly Luciferin](https://github.com/sblantipodi/firefly_luciferin). Firefly is recognized for its lower computational resource requirements.
+
+The software is used for screen content capture and data transmission to the Arduino.
+
+Launch Prismatik and go through the initial setup process. Follow the on-screen instructions to configure the display settings.
+![Prismatik settings](https://github.com/Statonwest/VR_Ambilight/blob/e728cd80f0c3ad1413558759991a7cd0a77fd714/Photos/Prismatik%20Settings.jpg)
+
+Configure the output settings to match your Arduino connection. Select the correct COM port corresponding to the Arduino Nano.
+
+Adjust any additional settings in Prismatik according to your preferences, such as brightness (e.g. 10%), and capture area (e.g. Screen 1).
+</strike>
 
 
 ## To do
@@ -150,5 +146,3 @@ Notes for the 3D print in example:
 - [x] Better diffusion
 
 - [ ] Better Mount for arduino
-
-- [ ] Auto close screen capture with Steam VR
